@@ -1,0 +1,49 @@
+body{
+  background-color: #333;
+  color: #eee;
+}
+h1, p{
+  font-family: 'Bree Serif', serif;
+  font-size: 50px;
+}
+#name{
+  font-size: 30px;
+}
+
+#wrapper{
+  width: 80%;
+  border: 0px solid red;
+}
+#widget{
+  width: 40%;
+  max-width: 450px;
+  min-width: 450px;
+  background-color: #222;
+  border: 0px solid green;
+  padding: 5px;
+  min-height: 250px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+#icon{
+  border: 0px solid red;
+  height: 50px;
+  width: 50px;
+}
+
+#temperature:hover{
+  color: #337AB7;
+}
+
+#temp:hover{
+  text-decoration: none;
+}
+#temp{
+  font-size: 50px;
+}
+#author p{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 25px;
+  }
